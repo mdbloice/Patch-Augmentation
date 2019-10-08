@@ -1,5 +1,5 @@
 # Patch Swap Augmentation
-Patch Swap is an image augmentation technique designed to improve model generalisation and mitigate adversarial attacks.
+*Patch Swap* is an image augmentation technique designed to improve model generalisation and mitigate adversarial attacks.
 
 ## How it works
 
