@@ -3,7 +3,7 @@
 
 ## How it works
 
-Patch Swap is a simple method where new, augmmented images are created by combining two images from two different classes to create a new image and label pair.
+Patch Swap is a simple method where new, augmented images are created by combining two images from two different classes to create a new image and label pair.
 
 ## Examples
 
