@@ -11,11 +11,13 @@ A notebook containing a reproducible experiment (using ResNetv1 and ResNetv2 on 
 
 Initial *Patch Augmentation* experiments show a several percent improvement over baseline accuracies.  
 
-In the case of the example above, a 25% area patch from Class B is superimposed on to the image from Class A. Its new label is `y = [0.75, 0.25]`.
-
 ## Visual Example
 
+Below is a visual example of the technique:
+
 ![simple-patch-aug-example](./DemoImages/patch-augmentation-simple-example.png)
+
+In the case of the example above, a 25% area patch from Class B is superimposed on to the image from Class A. Its new label is `y = [0.75, 0.25]`.
 
 ## Publication
 
