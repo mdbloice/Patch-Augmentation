@@ -1,5 +1,5 @@
 # Patch Augmentation
-*Patch Augmentation* is an image augmentation technique designed to improve model generalisation and mitigate against adversarial attacks.
+*Patch Augmentation* is an novel image augmentation technique designed to improve model generalisation and mitigate against adversarial attacks.
 
 ## How it works
 
