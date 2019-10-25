@@ -1,5 +1,5 @@
 # Patch Augmentation
-*Patch Augmentation* is an image augmentation technique designed to improve model generalisation and mitigate adersarial attacks (also known as adversarial attacks).
+*Patch Augmentation* is an image augmentation technique designed to improve model generalisation and mitigate against adversarial attacks (also known as adversarial classifications).
 
 ## How it works
 
@@ -10,6 +10,8 @@ A notebook containing a reproducible experiment (using ResNetv1 and ResNetv2 on 
 [Patch-Augmentation.ipynb](Patch-Augmentation.ipynb)
 
 Initial *Patch Augmentation* experiments show a several percent improvement over baseline accuracies.  
+
+In the case of the example above, a 25% area patch from Class B is superimposed on to the image from Class A. Its new label is `y = [0.75, 0.25]`.
 
 ## Visual Example
 
