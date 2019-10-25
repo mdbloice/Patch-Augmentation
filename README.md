@@ -13,7 +13,7 @@ Initial *Patch Augmentation* experiments show a several percent improvement over
 
 ## Visual Example
 
-
+![simple-patch-aug-example](./DemoImages/patch-augmentation-simple-example.png)
 
 ## Publication
 
