@@ -21,4 +21,4 @@ In the case of the example above, a 25% area patch from Class B is superimposed 
 
 ## Publication
 
-Repository made public on the 25th of October 2019.
+Repository made public on the 25th of October 2019. Publication in review.
