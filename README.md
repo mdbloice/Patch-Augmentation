@@ -11,6 +11,14 @@ A notebook containing a reproducible experiment (using ResNetv1 and ResNetv2 on 
 
 Initial *Patch Augmentation* experiments show a several percent improvement over baseline accuracies.  
 
+## Robustness Against Adversarial Attacks
+
+Initial experiments show networks trained with *Patch Augmentation* are more robust to adversarial attacks, see the following notebook for details:
+
+[Adversarial-Examples.ipynb](Adversarial-Examples.ipynb)
+
+Using the Fast Gradient Sign Method to create adversarial examples, the network trained with *Patch Augmentation* had an accuracy of 72.5% versus 64.3% for the network trained without augmentation.
+
 ## Visual Example
 
 Below is a visual example of the technique:
