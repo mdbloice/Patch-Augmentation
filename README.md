@@ -27,8 +27,11 @@ Below is a visual example of the technique:
 
 ![simple-patch-aug-example](./DemoImages/patch-augmentation-simple-example.png)
 
-In the case of the example above, a 25% area patch from Class B is superimposed on to the image from Class A. Its new label is `y = [0.75, 0.25]`.
+In the case of the example above, a 15% area patch from Class B is superimposed on to the image from Class A. Its new label is `y = [0.85, 0.15]`.
 
 ## Publication
+Publication in review.
 
-Repository made public on the 25th of October 2019. Publication in review.
+Pre-print availble here: **Patch augmentation: Towards efficient decision boundaries for neural networks**, *arXiv:1911.07922*, Nov. 2019, <https://arxiv.org/abs/1911.07922>
+
+Repository made public on the 25th of October 2019.
