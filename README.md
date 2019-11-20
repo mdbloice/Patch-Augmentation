@@ -11,7 +11,7 @@ Below is a visual example of the technique:
 
 ![examples-random-patches-cropped.jpg](./DemoImages/examples-random-patches-cropped.jpg)
 
-The augmented image label is a combination of the image pair's original labels. Clockwise from the upper left, the image's labels are [0.72220625, 0.27779375], [0.2832, 0.7168], [0.918925, 0.081075], and [0.0, 1.0] respectively.
+The augmented image label is a combination of the image pair's original labels. The labels for the cat and dog classes are`[1.0, 0.0]` and `[0.0, 1.0]` respectively. Clockwise from the upper left, the augmented image's labels are `[0.72220625, 0.27779375]`, `[0.2832, 0.7168]`, `[0.918925, 0.081075]`, and `[0.0, 1.0]` respectively.
 
 A notebook containing a reproducible experiment (training ResNet20v1 using the CIFAR-100 data set) can be found in the following notebook:
 
