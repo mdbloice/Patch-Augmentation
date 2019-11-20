@@ -1,6 +1,8 @@
 # Patch Augmentation
 *Patch Augmentation* is an novel image augmentation technique designed to improve model generalisation and mitigate against adversarial attacks.
 
+For details, see the following paper: **Patch augmentation: Towards efficient decision boundaries for neural networks**, *arXiv:1911.07922*, Nov. 2019, <https://arxiv.org/abs/1911.07922>
+
 ## How it works
 
 *Patch Augmentation* is a data-independent approach that creates new image data based on image/label pairs, where a patch from one of the two images in the pair is superimposed on to the other image, creating a new augmented sample. 
