@@ -7,7 +7,13 @@ For details, see the following paper: **Patch augmentation: Towards efficient de
 
 *Patch Augmentation* is a data-independent approach that creates new image data based on image/label pairs, where a patch from one of the two images in the pair is superimposed on to the other image, creating a new augmented sample. 
 
-A notebook containing a reproducible experiment (training ResNetv1 using the CIFAR-100 data set) can be found in the following notebook:
+Below is a visual example of the technique:
+
+![examples-random-patches-cropped.jpg](./DemoImages/examples-random-patches-cropped.jpg)
+
+The augmented image label is a combination of the image pair's original labels. Clockwise from the upper left, the image's labels are [0.72220625, 0.27779375], [0.2832, 0.7168], [0.918925, 0.081075], and [0.0, 1.0] respectively.
+
+A notebook containing a reproducible experiment (training ResNet20v1 using the CIFAR-100 data set) can be found in the following notebook:
 
 [Patch-Augmentation-CIFAR-100.ipynb](Patch-Augmentation-CIFAR-100.ipynb)
 
@@ -19,19 +25,11 @@ Initial experiments show networks trained with *Patch Augmentation* are more rob
 
 [Adversarial-Examples.ipynb](Adversarial-Examples.ipynb)
 
-Using the Fast Gradient Sign Method to create adversarial examples, the network trained with *Patch Augmentation* had an accuracy of 72.5% versus 64.3% for the network trained without augmentation.
-
-## Visual Example
-
-Below is a visual example of the technique:
-
-![simple-patch-aug-example](./DemoImages/patch-augmentation-simple-example.png)
-
-In the case of the example above, a 15% area patch from Class B is superimposed on to the image from Class A. Its new label is `y = [0.85, 0.15]`.
+Using the Fast Gradient Sign Method to create adversarial examples, the network trained with *Patch Augmentation* had an accuracy of 72.5% versus 64.3% compared to the network trained without augmentation.
 
 ## Publication
 Publication in review.
 
-Pre-print availble here: **Patch augmentation: Towards efficient decision boundaries for neural networks**, *arXiv:1911.07922*, Nov. 2019, <https://arxiv.org/abs/1911.07922>
+Pre-print available here: **Patch augmentation: Towards efficient decision boundaries for neural networks**, *arXiv:1911.07922*, Nov. 2019, <https://arxiv.org/abs/1911.07922>
 
 Repository made public on the 25th of October 2019.
