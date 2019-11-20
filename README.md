@@ -7,11 +7,11 @@ For details, see the following paper: **Patch augmentation: Towards efficient de
 
 *Patch Augmentation* is a data-independent approach that creates new image data based on image/label pairs, where a patch from one of the two images in the pair is superimposed on to the other image, creating a new augmented sample. 
 
-A notebook containing a reproducible experiment (using ResNetv1 and ResNetv2 on the CIFAR-10 and CIFAR-100 datasets) can be found in the following notebook:
+A notebook containing a reproducible experiment (training ResNetv1 using the CIFAR-100 data set) can be found in the following notebook:
 
-[Patch-Augmentation.ipynb](Patch-Augmentation.ipynb)
+[Patch-Augmentation-CIFAR-100.ipynb](Patch-Augmentation-CIFAR-100.ipynb)
 
-Initial *Patch Augmentation* experiments show a several percent improvement over baseline accuracies.  
+In the notebook above, *Patch Augmentation* improves a baseline accuracy of about 45% to over 61%.
 
 ## Robustness Against Adversarial Attacks
 
