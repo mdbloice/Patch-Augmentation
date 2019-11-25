@@ -19,6 +19,15 @@ A notebook containing a reproducible experiment (training ResNet20v1 using the C
 
 In the notebook above, *Patch Augmentation* improves a baseline accuracy of about 45% to over 61%.
 
+The table below shows the technique being applied to several data sets and network architectures:
+
+| Model/Dataset |            | No Augmentation | Patch Augmentation |
+|---------------|------------|-----------------|--------------------|
+| CIFAR-10      | ResNet20v1 | 80.86%          | 89.33%              |
+|               | ResNet29v2 | 83.15%          | 91.19%              |
+| CIFAR-100     | ResNet20v1 | 44.08%          | 61.41%              |
+|               | ResNet29v2 | 52.21%          | 68.06%              |
+
 ## Robustness Against Adversarial Attacks
 
 Initial experiments show networks trained with *Patch Augmentation* are more robust to adversarial attacks, see the following notebook for details:
