@@ -1,7 +1,7 @@
 # Patch Augmentation
 *Patch Augmentation* is an novel image augmentation technique designed to improve model generalisation and mitigate against adversarial attacks.
 
-For details, see the following paper: **Patch augmentation: Towards efficient decision boundaries for neural networks**, *arXiv:1911.07922*, Nov. 2019, <https://arxiv.org/abs/1911.07922>
+For details, see the following pre-print: **Patch augmentation: Towards efficient decision boundaries for neural networks**, *arXiv:1911.07922*, Nov. 2019, <https://arxiv.org/abs/1911.07922>
 
 ## How it works
 
@@ -21,12 +21,12 @@ In the notebook above, *Patch Augmentation* improves a baseline accuracy of abou
 
 The table below shows the technique being applied to several data sets and network architectures:
 
-| Model/Dataset |            | No Augmentation | Patch Augmentation |
-|---------------|------------|-----------------|--------------------|
-| CIFAR-10      | ResNet20v1 | 80.86%          | 89.33%              |
-|               | ResNet29v2 | 83.15%          | 91.19%              |
-| CIFAR-100     | ResNet20v1 | 44.08%          | 61.41%              |
-|               | ResNet29v2 | 52.21%          | 68.06%              |
+| Model/Dataset |            | No Augmentation | Patch Augmentation  |
+|---------------|------------|-----------------|---------------------|
+| CIFAR-10      | ResNet20v1 | 80.86%          | **89.33%**          |
+|               | ResNet29v2 | 83.15%          | **91.19%**          |
+| CIFAR-100     | ResNet20v1 | 44.08%          | **61.41%**          |
+|               | ResNet29v2 | 52.21%          | **68.06%**          |
 
 ## Robustness Against Adversarial Attacks
 
