@@ -19,7 +19,7 @@ A notebook containing a reproducible experiment (training ResNet20v1 using the C
 
 In the notebook above, *Patch Augmentation* improves a baseline accuracy of about 45% to over 61%.
 
-The table below shows the technique being applied to several data sets and network architectures:
+The table below shows the technique being applied to several data sets and network architectures (test set accuracy):
 
 | Model/Dataset |            | No Augmentation | Patch Augmentation  |
 |---------------|------------|-----------------|---------------------|
