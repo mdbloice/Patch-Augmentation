@@ -21,7 +21,7 @@ In the notebook above, *Patch Augmentation* improves a baseline accuracy of abou
 
 The table below shows the technique being applied to several data sets and network architectures (test set accuracy):
 
-| Model/Dataset |            | No Augmentation | Patch Augmentation  |
+| Dataset       | Model      | No Augmentation | Patch Augmentation  |
 |---------------|------------|-----------------|---------------------|
 | CIFAR-10      | ResNet20v1 | 80.86%          | **89.33%**          |
 |               | ResNet29v2 | 83.15%          | **91.19%**          |
